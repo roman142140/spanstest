@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<header class="header">
+			<div class="logo">
+				<img src="assets/icons/Logo.svg" alt="">
+			</div>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__list-item"><a href="">Расписание</a></li>
+					<li class="nav__list-item"><a href="">Игровые отчёты</a></li>
+					<li class="nav__list-item"><a href="">Статистика</a></li>
+					<li class="nav__list-item"><a href=""><span>Ещё</span>
+						<span class="show-more-arrow"><img src="assets/icons/Dropdown.svg" alt=""><span>
+					</a></li>
+				</ul>
+			</nav>
+			<div class="dropdown">
+				<img class="dropdown__icon" src="assets/icons/Footboll.svg" alt="">
+				<span class="show-more-arrow"><img src="assets/icons/Dropdown.svg" alt=""><span>
+			</div>
+			<div class="player-small-avatar"><img src="assets/images/player-small.png" alt="">
+			</div>
+			<div class="backpack">
+				<img class="icon" src="assets/icons/Backpack.svg" alt="">
+				<span class="backpack__label">1</span>
+			</div>
+		</header>
+
+		<div class="main">
+			<aside class="aside">
+				
+				<div class="player-card">
+					<div class="player-card__main">
+						<div class="player-card__avatar"><img src="assets/images/player-small.png" alt=""></div>
+						<div class="player-card__info">
+							<div class="player-card__ratio">
+								<span class="player-card__ratio-val">89.40</span>
+								<span class="player-card__ratio-up">999 <img src="assets/icons/ratio up.svg"></span>
+							</div>
+							<div class="player-card__name">Елишакашвили Михо</div>
+						</div>
+					</div>
+					<span class="edit">
+						<img src="assets/icons/edit.svg" alt="" class="edit__icon">
+						<a href="" class="edit__text">Редактировать</a>
+					</span>
+				</div>
+
+			</aside>
+			<article class="article">
+				<section class="stat">
+					<div class="stat__achie achie">
+						<div class="achie__top">
+							<div class="achie__top-active"></div>
+							<div class="achie__top-disabled"></div>
+						</div>
+						<hr>
+						<div class="achie__bottom">
+							
+						</div>
+					</div>
+					<div class="stat__main">
+						<ul class="stat__toogle toogle">
+							<li class="toogle__item toogle__item--active">Все сезоны</li>
+							<li class="toogle__item">Сезон</li>
+						</ul>
+						<ul class="stat__info info">
+							<li class="info__box"><div class="info__box-overlay"></div><div class="info__box-main"><span class="info__box-title">Игры</span><span class="info__box-value">36</span></div></li>
+							<li class="info__box"><div class="info__box-overlay"></div><div class="info__box-main"><span class="info__box-title">Гол</span><span class="info__box-value">67</span></div></li>
+							<li class="info__box"><div class="info__box-overlay"></div><div class="info__box-main"><span class="info__box-title">Пас</span><span class="info__box-value">136</span></div></li>
+							<li class="info__box"><div class="info__box-overlay"></div><div class="info__box-main"><span class="info__box-title">Гол + пас</span><span class="info__box-value">136</span></div></li>
+						</ul>
+					</div>
+					<div class="stat__share share">
+						<span class="share__title">Поделиться</span>
+						<ul class="share__list">
+							<li class="share__list-item"><a href=""><img src="assets/icons/FB.svg" alt=""></a></li>
+							<li class="share__list-item"><a href=""><img src="assets/icons/VK.svg" alt=""></a></li>
+							<li class="share__list-item"><a href=""><img src="assets/icons/link.svg" alt=""></a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="ratio-season">
+					<div class="dropdown">
+						<span class="dropdown__text"></span>
+						<span class="show-more-arrow"><span>
+					</div>
+					<table class="table">
+						<td class="table__header"></td>
+						<td class="table__line"></td>
+						<td class="table__line"></td>
+						<td class="table__line"></td>
+						<td class="table__line"></td>
+						<td class="table__line"></td>
+					</table>
+				</section>
+			</article>
+		</div>
+
+		<footer class="footer">
+
+			<div class="footer__main">
+			<div>
+				<div class="logo"></div>
+				<div class="store"></div>
+				<div class="contacts">
+					<div class="contacts__title">Наши контакты</div>
+					<ul class="contacts__list">
+						<li class="contacts__list-item">
+							<a href="">
+								<img src="" alt="" class="icon">
+								<span class="contacts__list-text">+7 (495) 109-03-09</span>
+							</a>
+						</li>
+						<li class="contacts__list-item">
+							<a href="">
+								<img src="" alt="" class="icon">
+								<span class="contacts__list-text">go@crossball.ru</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="contents">
+				<ul class="contents__list">
+					<li class="contents__list-title">Разделы</li>
+					<li class="contents__list-item"><a href="">Главная</a></li>
+					<li class="contents__list-item"><a href="">Расписание</a></li>
+					<li class="contents__list-item"><a href="">Игровые отчёты</a></li>
+					<li class="contents__list-item"><a href="">Статистика</a></li>
+				</ul>
+				<ul class="contents__list">
+					<li class="contents__list-title">Виды спорта</li>
+					<li class="contents__list-item"><a href="">Футбол</a></li>
+					<li class="contents__list-item"><a href="">Баскетбол</a></li>
+					<li class="contents__list-item"><a href="">Волейбол</a></li>
+				</ul>
+				<ul class="contents__list">
+					<li class="contents__list-title">Полезное</li>
+					<li class="contents__list-item"><a href="">Как записаться?</a></li>
+					<li class="contents__list-item"><a href="">Ответы на вопросы</a></li>
+					<li class="contents__list-item"><a href="">Достижения</a></li>
+				</ul>
+				<ul class="contents__list">
+					<li class="contents__list-title">Чё почём</li>
+					<li class="contents__list-item"><a href="">Абонементы</a></li>
+					<li class="contents__list-item"><a href="">Корп. клиентам</a></li>
+					<li class="contents__list-item"><a href="">Партнёры</a></li>
+				</ul>
+			</div>
+			</div>
+			<hr>
+			<div class="footer__footer">
+				<div class="copy">© Все права защищены</div>
+				<ul class="socials">
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+					<li class="socials__item"><a href=""><img src="" alt=""></a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+	
+</body>
+</html>
