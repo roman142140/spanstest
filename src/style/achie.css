@@ -1,0 +1,49 @@
+.achie {
+}
+.achie__top {
+	display: flex;
+	justify-content: space-between;
+}
+.achie__top-active {
+	display: flex;
+}
+.achie__top-active .achie__item{
+	margin-right: 15px;
+}
+.achie__item-counter{
+	position: absolute;
+	min-width: 15px;
+	min-height: 15px;
+	top: -5px;
+	right: -5px;
+	background: #FFFFFF;
+	font-size: 12px;
+	color: #5A60E7;
+	text-align: center;
+	line-height: 15px;
+	padding: 0 5px;
+	border-radius: 15px;
+}
+.achie__top-disabled {
+	display: flex;
+}
+.achie__top-disabled .achie__item{
+	margin-left: 10px;
+	filter: grayscale(1);
+}
+.achie__top-disabled .achie__item:nth-child(1){
+	margin-left: 0;
+}
+.achie__bottom {
+	display: flex;
+	margin-top: 15px;
+}
+.achie__bottom .achie__item{
+	margin-right: 5px;
+}
+.achie__item{
+	position: relative;
+}
+.achie__item img{
+	height: 40px;
+}

@@ -1,0 +1,10 @@
+@media (max-width: 1280px){
+
+.player-small-avatar {
+	display: none;
+}
+.dropdown{
+	display: none;
+}
+
+}

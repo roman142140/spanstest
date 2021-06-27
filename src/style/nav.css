@@ -1,0 +1,9 @@
+.nav {
+	flex-grow: 1;
+}
+.nav__list {
+	display: flex;
+}
+.nav__list-item {
+	margin-right: 50px;
+}

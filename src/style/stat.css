@@ -1,0 +1,37 @@
+.stat {
+	background-image: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%);
+	background-color: #2C2C2C;
+	color: #FFFFFF;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	padding: 20px;
+}
+.stat__achie {
+	flex-basis: 275px;
+	margin-right: 55px;
+	flex-grow: 1;
+}
+
+.stat__main {
+	margin-bottom: 20px;
+	margin-right: 44px;
+	flex-basis: 440px;
+	flex-grow: 1;
+}
+.stat__toogle {
+	margin-bottom: 20px;
+}
+.stat__info {
+}
+.stat__share {
+}
+
+@media (max-width: 1440px){
+	.stat{
+		justify-content: space-between;
+	}
+	.stat__share {
+		display: none;
+	}
+}

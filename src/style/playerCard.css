@@ -1,0 +1,68 @@
+.player-card {
+	background-image: linear-gradient(238.37deg, rgba(90, 96, 231, 0.35) 6.34%, rgba(30, 30, 40, 0) 103.77%);
+	background-color: #2C2C2C;
+	padding: 20px;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+.player-card__main{
+	display: flex;
+}
+.player-card__avatar {
+	width: 70px;
+	height: 70px;
+	margin-right: 15px;
+}
+.player-card__avatar img{
+	width: 70px;
+	height: 70px;
+
+}
+.player-card__info {
+	margin-bottom: 50px;
+}
+.player-card__ratio{
+	display: flex;
+	align-items: flex-start;
+}
+.player-card__ratio-val {
+	font-size: 30px;
+}
+.player-card__ratio-up{
+	padding: 1px 5px;
+	font-size: 12px;
+	border-radius: 20px;
+	background: #5A60E7;
+	display: flex;
+	align-items: center;
+}
+.player-card__name {
+	font-size: 20px;
+}
+.edit {
+	display: flex;
+	align-items: flex-end;
+}
+.edit__text {
+	color: #ACAFF3;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.edit__icon{
+}
+.player-card__share{
+	display: none;
+	align-self: flex-end;
+}
+
+@media (max-width: 1440px){
+	.player-card__share{
+	display: block;
+}
+	.player-card__ratio-val {
+	font-size: 22px;
+}
+	.player-card__name {
+	font-size: 16px;
+}
+}

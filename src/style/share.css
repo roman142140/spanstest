@@ -1,0 +1,12 @@
+.share {
+	margin-top: -10px;
+}
+.share__title {
+	font-size: 12px;
+	color: #ACAFF3;
+}
+.share__list {
+	display: flex;
+}
+.share__list-item {
+}

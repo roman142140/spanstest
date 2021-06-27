@@ -1,0 +1,19 @@
+.backpack {
+	width: 21px;
+	height: 28px;
+	position: relative;
+}
+.backpack__label {
+	position: absolute;
+	bottom: -2px;
+	right: -6px;
+	font-size: 12px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	background: #86E3CE;
+	color: #fff;
+	text-align: center;
+	line-height: 16px;
+}
