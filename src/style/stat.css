@@ -6,6 +6,7 @@
 	display: flex;
 	flex-wrap: wrap-reverse;
 	padding: 20px;
+	margin-bottom: 20px;
 }
 .stat__achie {
 	flex-basis: 275px;
